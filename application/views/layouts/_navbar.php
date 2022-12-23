@@ -21,13 +21,13 @@
             </ul>
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a href="/cart.html" class="nav-link"><i class="fas fa-shopping-cart"></i>Cart (0)</a>
+                <a href="/cart" class="nav-link"><i class="fas fa-shopping-cart"></i>Cart (0)</a>
               </li>
               <li class="nav-item">
-                <a href="/login.html" class="nav-link">Login</a>
+                <a href="/login" class="nav-link">Login</a>
               </li>
               <li class="nav-item">
-                <a href="/register.html" class="nav-link">Register</a>
+                <a href="/register" class="nav-link">Register</a>
               </li>
               <li class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" id="dropdown-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admin</a>
