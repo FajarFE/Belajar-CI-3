@@ -24,7 +24,7 @@ class Login extends MY_Controller {
         if(!$this->login->validate()){
             $data['title'] = 'Login';
             $data['input'] = $input;
-            $data['page'] = 'pages/home/login';
+            $data['page'] = 'pages/auth/login';
             $this->view($data);
             return;
         }

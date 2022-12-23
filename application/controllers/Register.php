@@ -27,7 +27,7 @@ class Register extends MY_Controller
 		if (!$this->register->validate()) {
 			$data['title']	= 'Register';
 			$data['input']	= $input;
-			$data['page']	= 'pages/home/register';
+			$data['page']	= 'pages/auth/register';
 			$this->view($data);
 			return;
 		}
